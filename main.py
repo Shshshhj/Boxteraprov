@@ -45,7 +45,7 @@ async def start(m: UpdateNewMessage):
     reply_text = f"""
 Hello! I am a bot to download videos from terabox.
 Send me the terabox link and I will start downloading it.
-Join @RoldexVerse For Updates
+Join @teen_video1 For Updates
 [Source Code](https://github.com/r0ld3x/terabox-downloader-bot) """
     check_if = await is_user_on_chat(bot, "@teen_video1", m.peer_id)
     if not check_if:
